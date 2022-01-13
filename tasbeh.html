@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasbeh</title>
+</head>
+<style>
+    .tasbeh {
+        position: relative;
+        width: 280px;
+        height: 300px;
+        background-color: coral;
+        border: 2px solid chocolate;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 20%;
+    }
+
+    .ekran {
+        height: 65px;
+        width: 57%;
+        position: absolute;
+        top: 10%;
+        caret-color: white;
+        left: 21%;
+        border-radius: 15%;
+        border: 1px solid floralwhite;
+        background-color: white;
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .tugma {
+        position: absolute;
+        top: 43%;
+        left: 36%;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: gray;
+        border: none;
+    }
+
+    .tugma:hover {
+        background-color: blue;
+    }
+
+    .nolga {
+        position: absolute;
+        top: 76%;
+        left: 42%;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: gray;
+        border: none;
+    }
+
+    .nolga:hover {
+        background-color: blueviolet;
+    }
+</style>
+<body>
+    
+    <div class="tasbeh">
+
+        <input disabled type="text" class="ekran" value="0">
+        <button class="tugma"></button>
+        <button class="nolga"></button>
+
+    </div>
+
+</body>
+<script src="/tasbeh.js"></script>
+</html>
